@@ -12,11 +12,3 @@ let appData = {бюджет: money, timeData: time, expenses: {"ответ на 
 "ответ на второй вопрос": summaT}, optionalExpenses: {}, income: [], savings: false};
 
 alert(appData["бюджет"] / 30);
-
-
-//console.log(typeof(ansver)); 
-
-//var str1 = "Привет ";
-//var str2 = "Мир!";
-//var result = str1.concat(str2);
-//console.log(result);
