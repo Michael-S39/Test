@@ -1,12 +1,22 @@
 'use strict';
 
-//let ansver = prompt("Тебе уже 18?", "Да");
+let money = prompt("Ваш бюджет на месяц?", "");
+let time = prompt("Введите дату в формате YYYY-MM-DD", "");
+let statja = prompt("Введите обязательную статью расходов в этом месяце", "");
+let summa = prompt("Во сколько обойдется?", "");
+
+let statjaT = prompt("Введите обязательную статью расходов в этом месяце", "");
+let summaT = prompt("Во сколько обойдется?", "");
+
+let appData = {бюджет: money, timeData: time, expenses: {"ответ на первый вопрос": summa, 
+"ответ на второй вопрос": summaT}, optionalExpenses: {}, income: [], savings: false};
+
+alert(appData["бюджет"] / 30);
+
+
 //console.log(typeof(ansver)); 
-let incr = 10,
-decr = 10;
 
-incr++;
-decr--;
-
-console.log(incr);
-console.log(decr);
+//var str1 = "Привет ";
+//var str2 = "Мир!";
+//var result = str1.concat(str2);
+//console.log(result);
